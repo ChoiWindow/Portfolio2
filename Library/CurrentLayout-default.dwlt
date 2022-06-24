@@ -177,7 +177,7 @@ MonoBehaviour:
   m_MinSize: {x: 911, y: 442}
   m_MaxSize: {x: 22006, y: 14042}
   vertical: 0
-  controlID: 61
+  controlID: 36
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -223,7 +223,7 @@ MonoBehaviour:
   m_MinSize: {x: 201, y: 442}
   m_MaxSize: {x: 4001, y: 8042}
   vertical: 1
-  controlID: 16
+  controlID: 37
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -381,7 +381,7 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: 620e0000
       m_LastClickedID: 0
       m_ExpandedIDs: 54fbffff
       m_RenameOverlay:
@@ -482,21 +482,22 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SkipHidden: 0
     m_SearchArea: 1
-    m_Folders: []
+    m_Folders:
+    - Assets/02.Scripts
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 0
   m_StartGridSize: 64
   m_LastFolders: []
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\ChoiChangWoo\Documents\GitHub\Portfolio2
+  m_LastProjectPath: C:\Users\ChoiChangWoo\Documents\GitHub\Portfolio2\Portfolio2
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: ce520000
     m_LastClickedID: 21198
-    m_ExpandedIDs: 00000000ea520000ec520000ee520000f0520000f2520000f4520000f6520000f8520000fa520000fc520000fe52000000530000025300000453000006530000085300000a5300000c5300000e530000
+    m_ExpandedIDs: 00000000e6520000e8520000ea520000ec520000ee520000f0520000f2520000f4520000f6520000f8520000fa520000fc520000fe52000000530000025300000453000006530000085300000a530000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -524,21 +525,21 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff00000000ea520000ec520000ee520000f0520000f2520000f4520000f6520000f8520000fa520000fc520000fe52000000530000025300000453000006530000085300000a5300000c5300000e530000
+    m_ExpandedIDs: ffffffff00000000e6520000e8520000ea520000ec520000ee520000f0520000f2520000f4520000f6520000f8520000fa520000fc520000fe52000000530000025300000453000006530000085300000a530000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: CameraStable
+      m_OriginalName: CameraStable
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 3682
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 10}
     m_SearchString: 
