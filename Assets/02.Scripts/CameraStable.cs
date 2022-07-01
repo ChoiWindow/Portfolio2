@@ -4,17 +4,20 @@ using UnityEngine;
 
 public class CameraStable : MonoBehaviour
 {
-    public GameObject Thecar;
-    public float CarX;
-    public float CarY;
-    public float CarZ;
+    public GameObject cameraView; //카메라 바라볼 대상
 
-    private void Update()
+    public GameObject cameraPos; //카메라의 위치
+
+    public float speed; //카메라가 움직일 속도
+
+    private void LateUpdate()
     {
-        CarX = Thecar.transform.eulerAngles.x;
-        CarY = Thecar.transform.eulerAngles.y;
-        CarZ = Thecar.transform.eulerAngles.z;
+        gameObject.transform.position = Vector3.Lerp(transform.position, cameraPos.transform.position,
+            Time.deltaTime * speed);
 
-        transform.eulerAngles = new Vector3(CarX - CarX, CarY - CarY, CarZ - CarZ);
+        gameObject.transform.LookAt(cameraView.transform);
     }
+
+
+
 }

@@ -36,19 +36,19 @@ public class CarController : MonoBehaviour
 
         }
 
-        //void WheelPosAndAni()
-        //{
-        //    Vector3 wheelPosition = Vector3.zero;
-        //    Quaternion wheelRotation = Quaternion.identity;
+    void WheelPosAndAni()
+    {
+        Vector3 wheelPosition = Vector3.zero;
+        Quaternion wheelRotation = Quaternion.identity;
 
-        //    for ( int i = 0; i < 4; i++)
-        //    {
-        //        wheels[i].GetWorldPose(out wheelPosition, out wheelRotation);
-        //        wheelMesh[i].transform.position = wheelPosition;
-        //        wheelMesh[i].transform.rotation = wheelRotation;
-        //    }
-        //}
-        void SteerVehicle()
+        for (int i = 0; i < 4; i++)
+        {
+            wheels[i].GetWorldPose(out wheelPosition, out wheelRotation);
+            wheelMesh[i].transform.position = wheelPosition;
+            wheelMesh[i].transform.rotation = wheelRotation;
+        }
+    }
+    void SteerVehicle()
         {
             if (Input.GetAxis("Horizontal") > 0)
             {
@@ -82,7 +82,7 @@ public class CarController : MonoBehaviour
             {
             wheels[i].steerAngle = IM.horizontal * rot;
             }
-            // WheelPosAndAni();
+             WheelPosAndAni();
             AddDownForce();
             SteerVehicle();
         }
